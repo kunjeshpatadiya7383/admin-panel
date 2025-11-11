@@ -27,6 +27,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
         {children}
       </body>
     </html>
