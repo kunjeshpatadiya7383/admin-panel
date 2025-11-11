@@ -34,9 +34,9 @@ const SearchBar = ({ setAdmissionData, setLoanData, setReviewData, setScholarshi
     };
 
     return (
-        <div className="bg-gray-50 flex items-start justify-center p-2 sm:p-8">
+        <div className="bg-gray-50 flex items-start justify-center p-2 sm:p-4">
             <div className="w-full max-w-2xl">
-                <h1 className="text-3xl font-extrabold text-gray-900 mb-6 text-center">
+                <h1 className="text-3xl font-extrabold text-gray-900 mb-3 text-center">
                     Admin Panel MEDUIndia
                 </h1>
                 <form
@@ -44,7 +44,6 @@ const SearchBar = ({ setAdmissionData, setLoanData, setReviewData, setScholarshi
                     className="bg-white p-4 sm:p-6 rounded-xl shadow-2xl border border-gray-100 transition-shadow duration-300 hover:shadow-3xl"
                 >
                     <div className="flex flex-col sm:flex-row gap-3">
-                        {/* Input Field */}
                         <div className="relative flex-grow">
                             <input
                                 type="text"
